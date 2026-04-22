@@ -1,24 +1,4 @@
 @charset "utf-8";
-@font-face {
-  font-family: sf_pro_displaybold;
-  font-style: normal;
-  font-weight: 400;
-  src: url("sfprodisplaybold-webfont.eot");
-  src: url("sfprodisplaybold-webfont.eot?#iefix") format("embedded-opentype"),
-    url("sfprodisplaybold-webfont.woff2") format("woff2"),
-    url("sfprodisplaybold-webfont.woff") format("woff"),
-    url("sfprodisplaybold-webfont.ttf") format("truetype");
-}
-@font-face {
-  font-family: sf_pro_displayregular;
-  font-style: normal;
-  font-weight: 400;
-  src: url("sfprodisplayregular-webfont.eot");
-  src: url("sfprodisplayregular-webfont.eot?#iefix") format("embedded-opentype"),
-    url("sfprodisplayregular-webfont.woff2") format("woff2"),
-    url("sfprodisplayregular-webfont.woff") format("woff"),
-    url("sfprodisplayregular-webfont.ttf") format("truetype");
-}
 body,
 html,
 ol,
