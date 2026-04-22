@@ -1,4 +1,24 @@
 @charset "utf-8";
+@font-face {
+  font-family: sf_pro_displaybold;
+  font-style: normal;
+  font-weight: 400;
+  src: url("sfprodisplaybold-webfont.eot");
+  src: url("sfprodisplaybold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("sfprodisplaybold-webfont.woff2") format("woff2"),
+    url("sfprodisplaybold-webfont.woff") format("woff"),
+    url("sfprodisplaybold-webfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: sf_pro_displayregular;
+  font-style: normal;
+  font-weight: 400;
+  src: url("sfprodisplayregular-webfont.eot");
+  src: url("sfprodisplayregular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("sfprodisplayregular-webfont.woff2") format("woff2"),
+    url("sfprodisplayregular-webfont.woff") format("woff"),
+    url("sfprodisplayregular-webfont.ttf") format("truetype");
+}
 body,
 html,
 ol,
@@ -87,10 +107,10 @@ a[href^="album://"]:not([class^=style])
 }
 .app-cover {
   color: #474753;
-  font-family: sf_pro_displayregular, "SFProDisplay-Regular", -apple-system, BlinkMacSystemFont, Segoe,
+  font-family: sf_pro_displayregular, -apple-system, BlinkMacSystemFont, Segoe,
     Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
 }
 .app-cover iframe:not([id^="google_ads_iframe"]) {
@@ -178,7 +198,7 @@ a[href^="album://"]:not([class^=style])
 .app-cover h4,
 .app-cover h5,
 .app-cover strong {
-  font-family: sf_pro_displaybold, "SFProDisplay-Bold";
+  font-family: sf_pro_displaybold;
   font-weight: 400;
 }
 .app-cover h1,
@@ -835,9 +855,7 @@ blockquote:not(.twitter-tweet):after {
   width: 28px;
 }
 .box-format .list-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   font-size: 15px !important;
   list-style: none !important;
   margin-bottom: 26px !important;
