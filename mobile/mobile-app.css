@@ -902,25 +902,25 @@ blockquote:not(.twitter-tweet):after {
 }
 @media screen and (min-width: 768px) {
   .size1 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .size2 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .size3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .size4 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .size5 {
-    font-size: 24px;
+    font-size: 22px;
   }
   .size6 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .size7 {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 @media screen and (min-width: 992px) {
