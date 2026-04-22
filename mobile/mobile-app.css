@@ -13,11 +13,11 @@
   font-family: sf_pro_displayregular;
   font-style: normal;
   font-weight: 400;
-  src: url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplaybold-webfont.eot");
-  src: url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplaybold-webfont.eot?#iefix") format("embedded-opentype"),
-       url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplaybold-webfont.woff2") format("woff2"),
-       url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplaybold-webfont.woff") format("woff"),
-       url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplaybold-webfont.ttf") format("truetype");
+  src: url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplayregular-webfont.eot");
+  src: url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplayregular-webfont.eot?#iefix") format("embedded-opentype"),
+       url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplayregular-webfont.woff2") format("woff2"),
+       url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplayregular-webfont.woff") format("woff"),
+       url("https://i.tmgrup.com.tr/mobileapi/ahaber/styles/v3/c/sfprodisplayregular-webfont.ttf") format("truetype");
 }
 body,
 html,
